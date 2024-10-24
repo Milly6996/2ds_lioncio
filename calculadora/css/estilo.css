@@ -6,22 +6,34 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: rgb(255, 218, 190);
+    background-color: #7ea881;
 }
 .app {
     background-color: #ecce94;
     padding: 16px;
     border-radius: 10px;    
 }
+.inputs{
+    display:flex;
+    flex-direction: column;
+}
+
 input {
     margin: 8px 0;
     padding: 8px;
     outline: none;
 }
-#btn-Calcular{
-    background-color: rgb(202, 151, 93);
-    color: #f3decd;
+#btnCalcular{
+    background-color: #4e4887;
+    color: #ffffff;
     padding: 8px;
     border-radius: 8px;
-    border-color: #64450b;
+    border-color: #0b0a49;
+}
+#btnLimpar{
+    background-color: #4e4887;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 8px;
+    border-color: #0b0a49;
 }
